@@ -1,0 +1,74 @@
+.tabsbox{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px auto;
+    >.firstnav{
+        height: 40px;
+        width: 100%;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >ul{
+            // overflow: hidden;
+            width: 95%;
+            height: 100%;
+            >li{
+                overflow: hidden;
+                position: relative;
+                cursor: pointer;
+                text-align: center;
+                line-height: 30px;
+                width: 8%;
+                height: 100%;
+                float: left;
+                padding: 5px;
+                border-right: 1px solid black;
+                >input{
+                    width: 100%;
+                    height: 30px;
+                }
+                >span:last-child{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    cursor: pointer;
+                    color: red;
+                }
+                &.active{
+                    background-color: white;
+                    height: 41px;
+                    z-index: 11;
+                }
+            }
+        }
+        >.tabadd{
+            width: 5%;
+            float: right;
+            color: red;
+            >span{
+                display: block;
+                cursor: pointer;
+                width: 25px;
+                border: 2px solid red;
+                text-align: center;
+                font-weight: bolder;
+            }
+        }
+    }
+    >.tabscon{
+        width: 100%;
+        padding: 10px;
+        >section{
+            display: none;
+            &.active{
+                display: block;
+            }
+        }
+        >input{
+            width: 900px;
+            height: 400px;
+        }
+    }
+}

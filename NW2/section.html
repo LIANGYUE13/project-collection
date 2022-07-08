@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选项卡</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/section.css">
+</head>
+<body onselectstart="return false" style="-moz-user-select : none;">
+    <div class="tabsbox" id="tab">
+        <!-- tab标签 -->
+        <nav class="firstnav">
+            <ul>
+                <li class="active">
+                    <span>选项1</span>
+                    <span class="close">x</span>
+                </li>
+                <li>
+                    <span>选项2</span>
+                    <span class="close">x</span>
+                </li>
+                <li>
+                    <span>选项3</span>
+                    <span class="close">x</span>
+                </li>
+            </ul>
+            <div class="tabadd">
+                <span>+</span>
+            </div>
+        </nav>
+        <!-- tab内容 -->
+        <div class="tabscon">
+            <section class="active">内容1</section>
+            <section>内容2</section>
+            <section>内容3</section>
+        </div>
+    </div>
+    <script src="./js/secton.js"></script>
+</body>
+</html>

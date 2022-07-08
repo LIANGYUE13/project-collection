@@ -1,0 +1,184 @@
+{
+  "id": "1712587",
+  "name": "RDC",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "485844",
+      "name": "0-",
+      "font_class": "0",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "7637611",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "100742",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "143739",
+      "name": "mark",
+      "font_class": "mark",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "202948",
+      "name": "service-上门安装",
+      "font_class": "serviceshangmenanzhuang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "202965",
+      "name": "service-指定物流",
+      "font_class": "servicezhidingwuliu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "251250",
+      "name": "mobile",
+      "font_class": "mobile",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "519517",
+      "name": "消息-线性",
+      "font_class": "xiaoxixianxing",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "578510",
+      "name": "top",
+      "font_class": "top",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "579954",
+      "name": "类目",
+      "font_class": "leimu",
+      "unicode": "e78e",
+      "unicode_decimal": 59278
+    },
+    {
+      "icon_id": "796985",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "856397",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "1173017",
+      "name": "车巴巴-购物车",
+      "font_class": "head104",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "1190016",
+      "name": "安全保障",
+      "font_class": "anquanbaozhang",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "1718321",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1718323",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1920212",
+      "name": "微信方",
+      "font_class": "weixinfang",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "3205420",
+      "name": "钻石1",
+      "font_class": "zuanshi-",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "3325491",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "5063840",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "6775641",
+      "name": "爱心 _实心",
+      "font_class": "aixin_shixin",
+      "unicode": "eca1",
+      "unicode_decimal": 60577
+    },
+    {
+      "icon_id": "7008907",
+      "name": "collection",
+      "font_class": "collection",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "7287091",
+      "name": "退换货",
+      "font_class": "tuihuanhuo",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "8268337",
+      "name": "shopping cart",
+      "font_class": "shoppingcart",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "8776822",
+      "name": "cart_empty",
+      "font_class": "icon-test",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    }
+  ]
+}

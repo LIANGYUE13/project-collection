@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RDC exam</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<body>
+    <!-- 创建右侧导航栏 -->
+    <div class="r-nav">
+        <ul class="r-nav-top">
+            <li>
+                <a href="">
+                    <i class="iconfont">&#xe62e;</i>
+                    <span class="more">我的资料</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont">&#xe6ea;</i>
+                    <span class="more">我的收藏</span>
+                </a>
+            </li>
+            <li class="cart">
+                <div class="line"></div>
+                <a href="">
+                    <i class="iconfont">&#xe653;</i>
+                    <span class="cart"></span>
+                    <i class="iconfont zero">&#xe627;</i>
+                </a>
+                <span class="cart">购<br />物<br />车</span>
+                <div class="line"></div>
+            </li>
+        </ul>
+        <ul class="r-nav-bottom">
+            <li>
+                <a href="">
+                    <i class="iconfont">&#xe626;</i>
+                    <span class="more">留言</span>
+                </a>
+            </li>
+            <li class="mobile">
+                <a href="">
+                    <i class="iconfont">&#xe61c;</i>
+                    <span><img src="img4/QRcode.png" alt="">查看手机网站</span>
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    <i class="iconfont">&#xe608;</i>
+                    <span class="more">回到顶部</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 创建顶部导航条 -->
+    <div class="site-nav id="top"">
+        <div class="site-nav-bd">
+            <!-- 导航条左部 -->
+            <ul class="site-nav-bd-l">
+                <li class="site-nav-login site-nav-menu">
+                    <div class="site-nav-menu-hd">
+                        <a href="javascript:;">&nbsp;请登录</a>
+                    </div>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-user site-nav-menu">
+                    <div class="site-nav-menu-hd">
+                        <a href="javascript:;">注册</a>
+                    </div>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-wechat-sign site-nav-menu">
+                    <div class="site-nav-menu-hd">
+                        <a href="javascript:;">
+                            <i class="iconfont wechat">&#xe61b;</i>
+                            <span>微信登录</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <!-- 导航条右部 -->
+            <ul class="site-nav-bd-r">
+                <li class="site-nav-mobile site-nav-menu">
+                    <a href="javascript:;">
+                        <i class="iconfont mobile">&#xe6a0;<span>手机版</span></i>
+                    </a>
+                    <span><img src="img4/QRcode.png" alt="">查看手机网站</span>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-collection site-nav-menu">
+                    <a href="javascript:;">
+                        <i class="iconfont collection">&#xeca1;<span>收藏本站</span></i>
+                    </a>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-info site-nav-menu">
+                    <a href="javascript:;">我的资料</a>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-order site-nav-menu">
+                    <a href="javascript:;">我的订单</a>
+                </li>
+                <li class="site-nav-pipe site-nav-menu">|</li>
+                <li class="site-nav-cart site-nav-menu">
+                    <a href="javascript:;">
+                        <i class="iconfont cart">&#xe881;</i>
+                        <span>
+                            购物车
+                            <span class="highlight">(0)</span>
+                        </span>
+                    </a>
+                    <div class="cart">
+                        <i class="iconfont">&#xe654;</i>
+                        <p>亲，您的购物车空空的哦~</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 创建中间搜索栏 -->
+    <div class="cup">
+        <div class="top-wrap">
+            <div class="logo"><a href=""><span id="logo">&nbsp;测试</span></a></div>
+            <div class="top-wrap-r">
+            <div class="search">
+                <form action="" name="search">
+                    <div class="search-button">
+                        <button class="btn-search" type="submit">
+                            <i class="iconfont search-btn">&#xe63d;</i>
+                        </button>
+                    </div>
+                    <div class="search-field">
+                        <input type="text" class="search-combobox" value="高速线缆&nbsp;光模块"
+                        onfocus="if(this.value=='高速线缆&nbsp;光模块'){this.value=''}" 
+                        onblur="if(this.value=''){this.value='高速线缆&nbsp;光模块'}">
+                    </div>
+                </form>
+            </div>
+            <a class="shoppingcar" href="">
+                <div class="shoppingcar-hd">
+                    <span>我的购物车<i class="iconfont pulldown">&#xe681;</i></span>
+                    <button class="icar" type="button"><i class="iconfont">&#xe654;</i></button>
+                </div>
+                <div class="shoppingcar-bd">
+                    空空如也
+                </div>
+            </a>
+        </div>
+        </div>
+    </div>
+    <!-- 创建中间导航条 -->
+    <div class="nav">
+        <div class="nav-l">
+            <div class="goods">
+                <button type="button">
+                    <i class="iconfont">&#xe78e;</i>
+                </button>
+                <span>全部商品分类</span>
+                <div class="goods-class">
+                    <ul class="classes">
+                        <li class="cate1">
+                            <a href="">光纤传输&接入<i class="iconfont">&#xe603;</i></a>
+                            <div class="cate11">
+                            <ul>
+                                <li><a href="">波分复用器<i class="iconfont">&#xe603;</i></a></li>
+                                <li><a href="">光传输<i class="iconfont">&#xe603;</i></a></li>
+                                <li><a href="">终端配线产品<i class="iconfont">&#xe603;</i></a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">密集波分复用器</a></li>
+                                <li><a href="">光纤保护系统</a></li>
+                                <li><a href="">光纤连接器</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li class="cate2">
+                            <a href="">模块&高速线缆<i class="iconfont">&#xe603;</i></a>
+                            <div class="cate22">
+                                <ul>
+                                    <li><a href="">密集波分复用器</a></li>
+                                    <li><a href="">光纤保护系统</a></li>
+                                    <li><a href="">光纤连接器</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="cate3">
+                            <a href="">光纤布线系统<i class="iconfont">&#xe603;</i></a>
+                            <div class="cate33">
+                                <ul>
+                                    <li><a href="">波分复用器</a></li>
+                                    <li><a href="">光传输</a></li>
+                                    <li><a href="">终端配线产品</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="cate4">
+                            <a href="">光纤配线架&配线箱</a>
+                        </li>
+                        <li class="cate4">
+                            <a href="">网线系列</a>
+                        </li>
+                        <li class="cate4">
+                            <a href="">网络解决方案</a>
+                        </li>
+                        <li class="cate4">
+                            <a href="">光纤通信工具</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        </div>  
+        <div class="nav-r">
+            <a href="" class="diff">首页</a>
+            <a href="">现货专区</a>
+            <a href="">热卖产品</a>
+            <a href="">解决方案</a>
+            <a href="">联系我们</a>
+
+        </div>
+    </div>
+    <!-- 创建banner的容器 -->
+    <div class="banner-wrapper">
+        <div class="banner">
+            <div class="slide current">
+                <img class="image" src="img1/swiper-2.jpg">
+                <div class="content" id="content1">
+                    <h1 class="title">数据中心优选光模块</h1>
+                    <p>开启智慧云网络</p>
+                    <a href="">联系我们</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img class="image" src="img1/swiper-1.jpg">
+                <div class="content"  id="content2">
+                    <h1 class="title">数据中心与云计算综合解决方案</h1>
+                    <p>综合解决方案&nbsp;为您的需求而打造特定业务</p>
+                    <a href="">联系我们</a>
+                </div>
+            </div>
+        </div>
+        <div id="pointer">
+            <a id="p1" href="javascript:;"></a>
+            <a id="p2" href="javascript:;"></a>
+        </div>
+    </div>
+    <!-- 创建分类 -->
+    <div class="items-wrapper">
+        <div class="item-wrapper">
+            <button type="button" id="left-arrow"><i class="iconfont">&#xe602;</i></button>
+            <div class="items">
+                <div class="item">
+                    <div class="i1"><a href=""><img src="img1/item-1.jpg" alt=""><span>千兆光纤模块</span></a></div>
+                    <div class="i2"><a href=""><img src="img1/item-2.jpg" alt=""><span>万兆光纤模块</span></a></div>
+                    <div class="i3"><a href=""><img src="img1/item-3.jpg" alt=""><span>高速线缆DAC</span></a></div>
+                    <div class="i4"><a href=""><img src="img1/item-4.jpg" alt=""><span>光纤跳线</span></a></div>
+                    <div class="i5"><a href=""><img src="img1/item-5.jpg" alt=""><span>高密度布线系列</span></a></div>
+                    <div class="i6"><a href=""><img src="img1/item-6.jpg" alt=""><span>16粗波分复用器&解复用器</span></a></div>
+                    <div class="i7"><a href=""><img src="img1/item-7.jpg" alt=""><span>单模双工&nbsp;光纤跳线</span></a></div>
+                    <div class="i8"><a href=""><img src="img1/item-8.jpg" alt=""><span>高性能交换机</span></a></div>
+                </div> 
+            </div>
+            <button id="right-arrow"><i class="iconfont">&#xe603;</i></button>
+        </div>
+    </div>
+    <!-- 创建六宫格 -->
+    <div class="pictures-wrapper">
+        <div class="pictures">
+            <div class="p1">
+                <img src="img2/item-1.jpg" alt="">
+                <div class="w1">
+                    <p>为什么选择我们</p>
+                    <span>专业团队&nbsp;创新理念&nbsp;优质服务</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+            <div class="p2">
+                <img src="img2/item-2.jpg" alt="">
+                <div class="w3">
+                    <p>数据中心互联解决方案</p>
+                    <span>提高分布式共享资源</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+            <div class="p3">
+                <img src="img2/item-3.jpg" alt="">
+                <div class="w4">
+                    <p>长距离光传输</p>
+                    <span>提供更智能、更高效的传输体系</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+            <div class="p4">
+                <img src="img2/item-4.jpg" alt="">
+                <div class="w5">
+                    <p>中小企业网络解决方案</p>
+                    <span>面向未来的网络挑战</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+            <div class="p5">
+                <img src="img2/item-5.jpg" alt="">
+                <div class="w6">
+                    <p>光模块&高速线缆中心</p>
+                    <span>高校检测&nbsp;高品质传输</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+            <div class="p6">
+                <img src="img2/item-6.jpg" alt="">
+                <div class="w2">
+                    <p>定制您的专属数据中心</p>
+                    <span>满足多场景应用的数字化转型需求</span>
+                    <a href=""><span>了解更多</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 创建热卖产品 -->
+    <div class="hot-goods-wrapper">
+        <div class="hot-goods">
+            <h1>热卖产品</h1>
+            <span>定制常规光纤跳线</span>
+            <div class="box">
+                <div class="blackbox"></div>
+                <div class="graybox"></div>
+            </div>
+        </div>
+        <div class="hot-goods-pict">
+            <div class="i1">
+                <a href="">
+                    <img src="img3/item-1.jpg" alt="">
+                    <p>千兆模块</p>
+                    <span>立即购买</span>
+                </a>
+                <span>&nbsp;¥&nbsp;<em>120</em>.00</span>
+            </div>
+            <div class="i2">
+                <a href="">
+                    <img src="img3/item-2.jpg" alt="">
+                    <p>万兆模块</p>
+                    <span>立即购买</span>
+                </a><span>&nbsp;¥&nbsp;<em>150</em>.00</span>
+            </div>
+            <div class="i3">
+                <a href="">
+                    <img src="img3/item-3.jpg" alt="">
+                    <p>光纤跳线多模纤线</p>
+                    <span>立即购买</span>
+                </a>
+                <span>&nbsp;¥&nbsp;<em>46</em>.00</span>
+            </div>
+            <div class="i4">
+                <a href="">
+                    <img src="img3/item-4.jpg" alt="">
+                    <p>光纤跳线多模双芯纤线</p>
+                    <span>立即购买</span>
+                </a>
+                <span>&nbsp;¥&nbsp;<em>30</em>.00</span>
+            </div>
+            <div class="i5">
+                <a href="">
+                    <img src="img3/item-5.jpg" alt="">
+                    <p>服务器光纤两卡芯片</p>
+                    <span>立即购买</span>
+                </a>
+                <span>&nbsp;¥&nbsp;<em>135</em>.00</span>
+            </div>
+        </div>
+    </div>
+    <!-- 创建产品分类 -->
+    <div class="prods-wrapper">
+        <div class="prods">
+            <h1>产品分类</h1>
+            <span>全部分类</span>
+            <div class="box">
+                <div class="blackbox"></div>
+                <div class="graybox"></div>
+            </div>
+        </div>
+        <ul class="prods-picts">
+            <li class="i1">
+                <img src="img4/item-1.jpg" alt="">
+                <a href="">
+                    <div>交换机系统</div>
+                </a>
+            </li>
+            <li class="i2">
+                <img src="img4/item-2.jpg" alt="">
+                <a href="">
+                    <div>光模块系列</div>
+                </a>
+            </li>
+            <li class="i3">
+                <img src="img4/item-3.jpg" alt="">
+                <a href="">
+                    <div>高密度光纤布线系列</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 创建底部 -->
+    <div class="bottom-wrapper">
+        <div class="bottom">
+            <div class="bottom-head">
+                <div class="bottom-head-con">
+                    <div>
+                        <i class="iconfont">&#xe6e6;</i>
+                        <p>品质认证</p>
+                    </div>
+                    <div class="stro"></div>
+                    <div>
+                        <i class="iconfont">&#xe601;</i>
+                        <p>全国包邮</p>
+                    </div>
+                    <div class="stro"></div>
+                    <div>
+                        <i class="iconfont">&#xe624;</i>
+                        <p>30天免费退换</p>
+                    </div>
+                    <div class="stro"></div>
+                    <div>
+                        <i class="iconfont">&#xe600;</i>
+                        <p>终生保修服务</p>
+                    </div>
+                    <div class="stro"></div>
+                    <div>
+                        <i class="iconfont">&#xe649;</i>
+                        <p>企业专属特权</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-body">
+                <div class="bdl">
+                    <div>
+                        <h1>服务保障</h1>
+                        <p>正品保证</p>
+                        <p>7天无理由退换</p>
+                        <p>退货返运费</p>
+                        <p>7X15小时客服服务</p>
+                    </div>
+                    <div>
+                        <h1>支付方式</h1>
+                        <p>公司转账</p>
+                        <p>货到付款</p>
+                        <p>在线支付</p>
+                        <p>分期付款</p>
+                    </div>
+                    <div>
+                        <h1>商家服务</h1>
+                        <p>商家服务</p>
+                        <p>培训中心</p>
+                        <p>广告服务</p>
+                        <p>服务市场</p>
+                    </div>
+                    <div>
+                        <h1>物流配送</h1>
+                        <p>免运费</p>
+                        <p>海外配送</p>
+                        <p>EMS</p>
+                        <p>211限时达</p>
+                    </div>
+                    <div class="bdr">
+                        <div class="qrcode">
+                            <img src="img4/QRcode.png" alt="">
+                            <p>扫描查看手机版网站</p>
+                        </div>
+                        <div class="stro"></div>
+                        <div class="cell">
+                            <h1>000-000000</h1>
+                            <p>周一至周日&nbsp;8:00-18:00</p>
+                            <a href=""><i class="iconfont">&#xe731;</i><span>客服中心&nbsp;</span></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <p class="copyRight">©2020&nbsp;ib21201119&nbsp;版权所有</p>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "id": "1712587",
+  "name": "RDC",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "879162",
+      "name": "关闭",
+      "font_class": "ego-close",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "949605",
+      "name": "aui-icon-top",
+      "font_class": "aui-icon-top",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "13874731",
+      "name": "arrow_right",
+      "font_class": "arrow_right",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "13874732",
+      "name": "arrow_back",
+      "font_class": "arrow_back",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "1068818",
+      "name": "我的",
+      "font_class": "weibiaoti2fuzhi12",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "592049",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e790",
+      "unicode_decimal": 59280
+    },
+    {
+      "icon_id": "7637611",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "856397",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    }
+  ]
+}
